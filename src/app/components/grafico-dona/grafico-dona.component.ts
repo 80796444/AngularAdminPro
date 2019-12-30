@@ -1,0 +1,21 @@
+import { Component, OnInit, Input } from '@angular/core';
+import { ChartType } from 'chart.js';
+import { Label, MultiDataSet } from 'ng2-charts';
+
+@Component({
+  selector: 'app-grafico-dona',
+  templateUrl: './grafico-dona.component.html'
+})
+export class GraficoDonaComponent implements OnInit {
+
+  @Input() chartLabels: string[] = [];
+  @Input() chartData: number[] = [];
+  @Input() chartType: string = '';
+
+ 
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+}
