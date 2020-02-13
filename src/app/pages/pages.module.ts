@@ -32,7 +32,7 @@ import { FormsModule } from '@angular/forms';
         SharedModule,
         ChartsModule,
         PAGES_ROUTES,
-        FormsModule 
+        FormsModule
     ]
 
 })
