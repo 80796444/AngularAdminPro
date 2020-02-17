@@ -18,6 +18,7 @@ import { FormsModule } from '@angular/forms';
         DashboardComponent,
         IncrementadorComponent,
         Graficas1Component,
+        ProgressComponent,
         GraficoDonaComponent,
         AccountSettingsComponent
     ],
@@ -25,6 +26,7 @@ import { FormsModule } from '@angular/forms';
         PagesComponent,
         DashboardComponent,
         IncrementadorComponent,
+        ProgressComponent,
         Graficas1Component,
         GraficoDonaComponent
     ],
