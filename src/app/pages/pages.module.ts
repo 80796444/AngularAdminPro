@@ -11,6 +11,8 @@ import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.co
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { FormsModule } from '@angular/forms';
+import { PromesasComponent } from './promesas/promesas.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
     declarations:[
@@ -20,7 +22,9 @@ import { FormsModule } from '@angular/forms';
         Graficas1Component,
         ProgressComponent,
         GraficoDonaComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromesasComponent,
+        RxjsComponent,
     ],
     exports: [
         PagesComponent,
@@ -28,7 +32,8 @@ import { FormsModule } from '@angular/forms';
         IncrementadorComponent,
         ProgressComponent,
         Graficas1Component,
-        GraficoDonaComponent
+        GraficoDonaComponent,
+        RxjsComponent
     ],
     imports: [
         SharedModule,
